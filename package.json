@@ -7,12 +7,13 @@
     "lib/"
   ],
   "scripts": {
+    "build": "tsc",
     "dev": "webpack-dev-server",
-    "prettier": "prettier --config ./.prettierrc --write src/*",
     "lint": "tslint --project tsconfig.json",
+    "prepublish": "npm run build",
+    "prettier": "prettier --config ./.prettierrc --write src/*",
     "styleguide:dev": "styleguidist server",
-    "styleguide:build": "styleguidist build",
-    "build": "tsc"
+    "styleguide:build": "styleguidist build"
   },
   "author": "Anthony Freda",
   "license": "ISC",
@@ -49,6 +50,5 @@
     "hooks": {
       "pre-commit": "npm run lint"
     }
-  },
-  "dependencies": {}
+  }
 }
