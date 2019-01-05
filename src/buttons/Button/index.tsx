@@ -21,13 +21,16 @@ interface IButtonProps {
    */
   disabled?: boolean
 }
+
 const Button = (props: IButtonProps) => {
   return <StyledButton {...props}>{props.children}</StyledButton>
 }
+
 const StyledButton = styled.button`
   background-color: ${({ theme }: IProps) => theme.black};
   color: ${({ theme }: IProps) => theme.white};
 `
+
 interface IProps {
   theme: ITheme
 }

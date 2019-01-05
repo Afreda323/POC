@@ -8,8 +8,8 @@
     "prettier": "prettier --config ./.prettierrc --write src/*",
     "lint": "tslint --project tsconfig.json",
     "styleguide:dev": "styleguidist server",
-    "styleguide:build": "styleguidist build"
-
+    "styleguide:build": "styleguidist build",
+    "build": "tsc"
   },
   "author": "Anthony Freda",
   "license": "ISC",
