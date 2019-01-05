@@ -22,7 +22,7 @@
     "declaration": true,
     "lib": ["dom", "dom.iterable", "esnext"],
   },
-  "include": ["typing.d.ts", "src"],
+  "include": ["src"],
   "exclude": [
     "node_modules",
     "lib",
