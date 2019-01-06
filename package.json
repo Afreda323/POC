@@ -9,10 +9,10 @@
   "homepage": "https://afreda-poc.netlify.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Afreda323/POC.git/issues"
+    "url": "https://github.com/Afreda323/POC"
   },
   "bugs": {
-    "url": "https://github.com/Afreda323/POC.git/issues"
+    "url": "https://github.com/Afreda323/POC/issues"
   },
   "scripts": {
     "build": "tsc",
