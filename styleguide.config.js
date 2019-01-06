@@ -21,13 +21,11 @@ module.exports = {
         {
           name: 'Buttons',
           components: 'src/buttons/**/[A-Z]*.tsx',
-          exampleMode: 'expand',
           usageMode: 'expand',
         },
         {
           name: 'Inputs',
           components: 'src/inputs/**/[A-Z]*.tsx',
-          exampleMode: 'expand',
           usageMode: 'expand',
         },
       ],
