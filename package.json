@@ -1,5 +1,5 @@
 {
-  "name": "poc",
+  "name": "afreda-poc",
   "version": "1.0.0",
   "description": "testing uploading ts react components to npm while auto generating docs",
   "main": "lib/index.js",
