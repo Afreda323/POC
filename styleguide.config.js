@@ -20,15 +20,17 @@ module.exports = {
       sections: [
         {
           name: 'Buttons',
-          components: 'src/buttons/**/*.tsx',
+          components: 'src/buttons/**/[A-Z]*.tsx',
+          exampleMode: 'expand',
+          usageMode: 'expand',
         },
         {
           name: 'Inputs',
-          components: 'src/inputs/**/*.tsx',
+          components: 'src/inputs/**/[A-Z]*.tsx',
+          exampleMode: 'expand',
+          usageMode: 'expand',
         },
       ],
-      exampleMode: 'expand',
-      usageMode: 'expand',
     },
   ],
 }
